@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #222 !important;
+  }
+  .question{
+    font-size: 15px  !important;
+  }
+  select {
+    width: 80%;
+    font-size: 12px;
+    padding: 5px;
+  }
+  option{
+    font-size: 13px;
+  }
