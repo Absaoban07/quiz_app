@@ -7,7 +7,7 @@ let sociologicalQuizData = [
         "  A form of political organization.",
         "  A type of religious belief."
       ],
-      correctAnswer: " The process of organizing individuals into different layers based on their social status."
+      correctAnswer: "The process of organizing individuals into different layers based on their social status."
     },
     {
       question: "The term  'sociology' was coined in 1838 by one of these Scholars  ?",
