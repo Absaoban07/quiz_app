@@ -2,7 +2,7 @@ let sociologicalQuizData = [
     {
       question: "What is the concept of 'social stratification'?",
       options: [
-        "  The process of organizing individuals into different layers based on their social status.",
+        " The process of organizing individuals into different layers based on their social status.",
         " The study of rocks and minerals in society.",
         "  A form of political organization.",
         "  A type of religious belief."
@@ -100,12 +100,12 @@ let result = 0;
       if (sociologicalQuizData[index].correctAnswer === selectValue) {
         document.querySelectorAll('.status')[index].innerHTML= `Status: Correct`;
         result += isCorrect;
-        document.querySelector('.points').innerHTML=  `${result}/120`;
+        document.querySelector('.points').innerHTML=  `${result}/100`;
         console.log(result)
       } else{
         document.querySelectorAll('.status')[index].innerHTML= `Status: wrong`;
        result += isWrong;
-       document.querySelector('.points').innerHTML= `${result}/120`;
+       document.querySelector('.points').innerHTML= `${result}/100`;
        console.log(result)
       }
    
