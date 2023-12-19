@@ -1,27 +1,17 @@
 let sociologicalQuizData = [
-    {
-      question: "What is the concept of 'social stratification'?",
-      options: [
-        " The process of organizing individuals into different layers based on their social status.",
-        " The study of rocks and minerals in society.",
-        "  A form of political organization.",
-        "  A type of religious belief."
-      ],
-      correctAnswer: "The process of organizing individuals into different layers based on their social status."
-    },
-    {
-      question: "The term  'sociology' was coined in 1838 by one of these Scholars  ?",
-      options: [
-        " Karl Marx",
-        " Emile Durkheim",
-        " Max Weber",
-        " Charles Darwin",
-        " Auguste Comte",
-        " Abraham Lincoln",
-      ],
-      correctAnswer: " Auguste Comte"
-    },
-    {
+  {
+    question: "The term  'sociology' was coined in 1838 by one of these Scholars  ?",
+    options: [
+      " Karl Marx",
+      " Emile Durkheim",
+      " Max Weber",
+      " Charles Darwin",
+      " Auguste Comte",
+      " Abraham Lincoln",
+    ],
+    correctAnswer: " Auguste Comte"
+  },
+  {
       question: "The feeling of disorientation when encountering a new culture. Is called what ?",
       options: [
         " Cultural Change.",
@@ -104,7 +94,7 @@ let result = 0;
         console.log(result)
       } else{
         document.querySelectorAll('.status')[index].innerHTML= `Status: wrong`;
-       result += isWrong;
+       result -= isC;
        document.querySelector('.points').innerHTML= `${result}/100`;
        console.log(result)
       }
