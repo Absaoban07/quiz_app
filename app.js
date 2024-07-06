@@ -93,7 +93,7 @@ function quizBank() {
           index
         ].innerHTML = `Status: Correct`;
         result += isCorrect;
-        document.querySelector(".points").innerHTML = `${result}/100`;
+        document.querySelector(".points").innerHTML = `${result}/80`;
         console.log(result);
       } else {
         document.querySelectorAll(".status")[index].innerHTML = `Status: wrong`;
